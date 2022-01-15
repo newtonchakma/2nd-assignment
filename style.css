@@ -359,6 +359,8 @@ footer p{
         width:404px;
         height:202px;
         align-items: center;
+        margin-left: 40px;
+        padding-left: 20px;
     }
     .banner-left h1{
         font-size: 24px;
@@ -373,13 +375,15 @@ footer p{
         
     }
    .banner-left button{
-      margin-left: 83px;
-      margin-right: 83px;
+      margin-left: 103px;
+      margin-right: 60px;
     }
 
     .banner-right {
-    width:257px;
-    height:257px
+     width:257px;
+     height:257px;
+     margin-left: 50px;
+     padding-left: 20px;
     }
     .banner-right img{
         width:202px;
