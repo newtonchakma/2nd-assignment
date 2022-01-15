@@ -105,6 +105,7 @@ button .fas{
     margin-left: 197px;
     margin-right: 197px;
     margin-bottom: 30px;
+    
 }
 .popular-collection{
     margin-top: 114px;
@@ -248,4 +249,150 @@ footer p{
 }
 .social-icons .fab{
     padding: 10px;
+}
+
+
+
+
+/* media query */
+@media only screen and (min-width: 601px) and (max-width:780px){
+   .menu{
+    display: none;
+   }
+    .logo h1{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-left: auto;
+    }
+  .banner{
+      display:grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      
+  }
+  .banner-left img{
+    width: 100%;
+
+  }
+      .products{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         width: 100%;
+        grid-column-gap: 40px;
+        
+     }
+     .banner-left h1{
+         font-size: 30px;
+         font-weight: bold;
+        text-align: center;
+         
+     }
+     .banner-left p{
+         font-size: 20px;
+        text-align: center;
+         
+     }
+     .banner-left button{
+         display:block;
+         font-size: 20px;
+         padding: 7px 12px;
+        margin: 0 auto;
+     }
+  
+     button .fas{
+        margin-left: 10px;
+    }
+     .banner-right {
+        align-items: center;
+        margin-left: 30px;
+     }
+     .banner-right img{
+         width: 400px;
+         height: 450px;
+         padding-left: 20px;
+       
+     }
+ 
+     .container{
+         display:block;
+         width: 329px;
+         margin-bottom: 50px;
+         margin-left: 30px;
+         align-items: center;
+         margin: 0 auto;
+     }
+   
+ 
+     .contact{
+       display: flex;
+       width:100%;
+       justify-content: center;
+       margin-left: 90px;
+     }
+     #footer {
+         width: 100%;
+         padding: 40px 80px;
+     }
+    }
+@media only screen and (max-width: 600px){
+   
+   .menu{
+       display: none;
+   }
+   .logo h1{
+       font-size: 30px;
+       font-weight: bold;
+   }
+
+    .banner,
+    .products{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+       
+    }
+    .banner-left h1{
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .banner-left p{
+        font-size: 25px;
+        justify-content: center; 
+        text-align: center;
+        
+    }
+   .banner-left button{
+       position: relative;
+        margin-left: 171px;
+        padding-left:40px
+    }
+
+    .banner-right {
+  
+        margin-left: 50px;
+        padding-left: 20px;
+    }
+
+    .container{
+        display:block;
+        width: 329px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+        align-items: center;
+        margin: 0 auto;
+    }
+  
+
+    .contact{
+      display: flex;
+      width:329px;
+      justify-content: center;
+    }
+    #footer {
+        width: 100%;
+        padding: 50px;
+    }
 }
